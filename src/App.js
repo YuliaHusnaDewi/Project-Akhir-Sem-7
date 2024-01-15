@@ -1,9 +1,8 @@
-import React from "react";
+import { createStackNavigator, createAppContainer, } from 'react-navigation';
 
-import MainNavigator from "react";
+const Navigation = createStackNavigator({
+});
 
-const App = () => {
-  return <MainNavigator/>;
-};
+const App = createAppContainer(Navigation);
 
 export default App;

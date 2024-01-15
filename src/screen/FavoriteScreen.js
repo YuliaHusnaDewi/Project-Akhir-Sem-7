@@ -1,11 +1,11 @@
 import React from "react";
 
-const HomeScreen = () => {
+const FavoriteScreen = () => {
     return (
     <view style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-        <Text>Home</Text>
+        <Text>Favorite</Text>
         </view>
     );
 };
 
-export default HomeScreen;
+export default FavoriteScreen;
