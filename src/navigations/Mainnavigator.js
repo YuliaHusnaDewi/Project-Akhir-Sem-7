@@ -3,12 +3,14 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import React from "react";
 import HomeScreen from "../screen/HomeScreen";
 import TabNavigator from "./TabNavigator";
+import StatusBar from 'react';
 
 const Stack = createNativeStackNavigator();
 
 const MainNavigator = () => {
     return (
     <NavigationContainer>
+        <StatusBar hidden />
         <Stack.Navigator>
             <Stack.Screen 
             name="Root" 
